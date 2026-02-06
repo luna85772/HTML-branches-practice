@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+}
+
+.info {
+    text-align: left;
+  
+
+}
+
+.Perrito {
+    height: 160px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 12px;
+} 
+
+@media screen and (orientation: landscape) {
+    h1 {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    body {
+       text-align: left;
+    }
+    .Perrito{
+        display: inline;
+        float: left;
+        margin-right: 12px;
+    }
+    .info {
+    max-width: 75%;
+    margin: 0 auto;
+    }
+    
+}
+
+@media ( min-width: 567px ) { 
+    body {
+        background-color: brown;
+    }
+
+}
+@media ( min-width: 768px ) { 
+    body {
+        background-color: chocolate;
+    }
+    
+}
+@media ( min-width: 992px ) { 
+    body {
+        background-color: crimson;
+    }
+    
+}
+@media ( min-width: 1200px ) { 
+    body {
+        background-color: darkgreen;
+    }
+    
+}
+@media ( min-width: 1400px ) { 
+    body {
+        background-color: darkorange;
+    }
+    
+}

@@ -1,0 +1,16 @@
+.contenedor {
+    background-color: grey;
+}
+.box {
+    border: 1px solid white;
+    height: 50px;
+    text-align: center;
+}
+
+.flores {
+    width: 30%;
+    float: left;
+    margin-right: 12px;
+    margin bottom: 10px;
+}
+

@@ -1,15 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-    <h1>Camilo desarrollador</h1>
-    <p>soy un desarrollador Frontend especializado en Angular y este es mi portafolio</p>
-    <script src="./js/script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portafolio</title>
+        <style>
+
+            
+            span {
+                color: blue;
+            }
+
+            header, footer {
+                border: 3px solid green;
+                box-sizing: border-box;
+
+            }
+        </style>
+
+        <link rel="stylesheet" href="./css/style.css">
+        
+    </head>
+    <body>
+
+        <header>
+            <img id ="logo_github"src="./images/github logo.png" alt="">
+            <br>
+            <br>
+            <nav>
+                <a class= "nav-link" href="#">Inicio</a>
+                <a class= "nav-link" href="#">Acerca de mi </a>
+                <a class= "nav-link" href="#">Mi portafolio</a>
+                <a class= "nav-link" href="#">Contactame</a>
+            </nav>
+
+            <form action="">
+                <input type="text" name="" id="">
+                <button type="button">Buscar</button>
+            </form>
+
+        </header>
+
+        <main>
+
+            <Section>
+                    <img src="./images/Imagen de codigos matrix - primer proyecto html.jpg" alt="imagen de salvapantallas linux - codigo" width="300px " height="" title="imagen codigo de matrix - linux">
+                    <h1>Hola soy <span>camilo frontend developer</span></h1>
+                    <p>Bienvenido/a a mi sitio web donde encontraras mas de mi trabajo</p>
+                    <hr>
+                    <h2>Lo que estoy aprendiendo</h2>
+            </Section>
+            
+            <section>
+                <p>Un poco de las cosas que he estado <br>aprendiendo estos dias me ha motivado a crear este sitio web</p>
+                <p>Nunca pense que tener una pagina fuera tan facil</p>
+                <p><mark>Algunas de las tecnologias que estoy aprendiendo son </mark><strong>Java</strong> 
+                & <em>Python</em> <a href="https://pregrados.ibero.edu.co/generica-bootcamps/?utm_source=sem&utm_medium=search-comp&utm_campaign=SEM-Buscadores-Generica-All-Conversiones-BT-Colombia-Generica-Keywords-Generica-Texto-RSA&utm_content=1A1A1FBB3BB&gad_source=1&gad_campaignid=20432976153&gbraid=0AAAAACniROCpK4t1t-GNYTp4ayB2m9DMM&gclid=Cj0KCQiA_8TJBhDNARIsAPX5qxQ7tvrb-rlee8wVhQU0lm4kj6pytL41K8KOlvJxanM1qyOaqiMzTgUaAunaEALw_wcB" target="_blank">BIT</a>
+                </p>
+            </section>
+            
+            <section>
+                <h2>contactos</h2>
+                <p>imagen de formulario de contacto</p>
+            </section>
+
+            <section>
+                <table border="1">
+                    <thead>
+                         <tr>
+                        <th>id</th>
+                        <th>nombre</th>
+                        <th>precio</th>
+                        <th>cantidad</th>
+                    </tr>
+                    </thead>
+                     <tbody>
+                        <tr>
+                        <td> 1</td>
+                        <td> manzana</td>
+                        <td>2 usd</td>
+                        <td> 5</td>
+                    </tr>
+                    </tbody>
+                   
+                </table>
+            </section>
+
+            <hr>
+            <br>
+
+            <form action="">
+                <h3>Hobbies</h3>
+                <label for="">hombre</label>
+                <input type="radio" name="genero">
+                <label for="">mujer</label>
+                <input type="radio" name="genero" id="">
+
+                <hr>
+                <br>
+                <input type="checkbox" name="" id="hobbies">
+                <label for="">cantar</label>
+                <input type="checkbox" name="" id="hobbies">
+                <label for="">codear</label>
+                <input type="checkbox" name="" id="hobbies">
+                <label for="">correr</label>
+
+                <hr>
+                <br>
+                <h3>ciudad</h3>
+                <label for="">ciudad</label>
+                <select name="ciudad" id="">
+                    <option value="">seleccione...</option>
+                    <option value="Bogota">bogota</option>
+                    <option value="cali">cali</option>
+                    <option value="medellin">Medellin</option>
+                </select>
+
+                <input type="button" value="enviar">
+                <button type="submit">enviar</button>
+                <input type="file">
+
+            </form>
+
+        </main>
+
+        <aside>
+            <p>Aqui va el contenido adicional en una barra lateral</p> 
+        </aside>
+s
+        <footer>
+                    <P>todos los derechos reservados &copy; <address> Bogotá, Colombia, calle 63 carrera 24</address></P>
+
+        </footer>
+
+        
+    </body>
 </html>

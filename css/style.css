@@ -1,9 +1,21 @@
-h1 { 
-    color:blue;
+p {
+    color: aqua;
+}
+
+#logo_github {
+    width: 100px;
+}
+
+.nav-link {
+    border: 2px solid gray;
+    padding: 3px;
+    background-color: gray;
+    border-radius: 9px;
+    color: white;
+    margin: 5px;
+}
+
+a[class= "nav-link"] {
     text-transform: uppercase;
 }
 
-p {
-
-    font-size: 20px;
-}
